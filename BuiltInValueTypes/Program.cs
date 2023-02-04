@@ -116,13 +116,13 @@ namespace BuiltInValueTypes
 
 
 
-            char char_min = char.MinValue;
-            Console.WriteLine("Minimum char value " + char_min);
+            int char_min = char.MinValue;
+            Console.WriteLine($"Minimum char value U+{char_min:x4}");
 
 
 
-            char char_max = char.MaxValue;
-            Console.WriteLine("Maximum char value " + char_max);
+            int char_max = char.MaxValue;
+            Console.WriteLine($"Maximum char value U+{char_max:x4}");
 
 
 
