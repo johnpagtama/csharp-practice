@@ -137,13 +137,13 @@ Console.WriteLine("Maximum nuint value " + nuint_max);
 
 ```csharp
 int char_min = char.MinValue;
-Console.WriteLine("Minimum char value " + char_min);
+Console.WriteLine($"Minimum char value U+{char_min:x4}");
 // Minimum char value U+0000
 ```
 
 ```csharp
 int char_max = char.MaxValue;
-Console.WriteLine("Maximum char value " + char_max);
+Console.WriteLine($"Maximum char value U+{char_max:x4}");
 // Maximum char value U+ffff
 ```
 
