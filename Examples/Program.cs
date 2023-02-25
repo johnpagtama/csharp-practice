@@ -9,6 +9,10 @@ namespace Examples
             ExampleBoolean.ShowBooleanTrue();
 
             ExampleBoolean.ShowBooleanFalse();
+
+            ExampleInteger.ShowIntegerMinimumValue();
+
+            ExampleInteger.ShowIntegerMaximumValue();
         }
     }
 }
