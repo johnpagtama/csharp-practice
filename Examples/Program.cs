@@ -10,6 +10,10 @@ namespace Examples
 
             ExampleBoolean.ShowBooleanFalse();
 
+            ExampleByte.ShowByteMinimumValue();
+
+            ExampleByte.ShowByteMaximumValue();
+
             ExampleInteger.ShowIntegerMinimumValue();
 
             ExampleInteger.ShowIntegerMaximumValue();
