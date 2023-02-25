@@ -18,6 +18,10 @@ namespace Examples
 
             ExampleSbyte.ShowSbyteMaximumValue();
 
+            ExampleShort.ShowShortMinimumValue();
+
+            ExampleShort.ShowShortMaximumValue();
+
             ExampleInteger.ShowIntegerMinimumValue();
 
             ExampleInteger.ShowIntegerMaximumValue();
