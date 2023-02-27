@@ -2,20 +2,20 @@
 
 namespace ExamplesLibrary
 {
-    public class ExampleSbyte
+    public class ExampleSByte
     {
-        public static void ShowSbyteMinimumValue()
+        public static void ShowSByteMinimumValue()
         {
-            sbyte sbyteMin = sbyte.MinValue;
+            sbyte sByteMin = sbyte.MinValue;
 
-            Console.WriteLine($"Show sbyte minimum value: {sbyteMin}");
+            Console.WriteLine($"Show sbyte minimum value: {sByteMin}");
         }
 
-        public static void ShowSbyteMaximumValue()
+        public static void ShowSByteMaximumValue()
         {
-            sbyte sbyteMax = sbyte.MaxValue;
+            sbyte sByteMax = sbyte.MaxValue;
 
-            Console.WriteLine($"Show sbyte maximum value: {sbyteMax}");
+            Console.WriteLine($"Show sbyte maximum value: {sByteMax}");
         }
     }
 }
