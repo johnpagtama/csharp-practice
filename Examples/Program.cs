@@ -18,6 +18,10 @@ namespace Examples
 
             ExampleInteger.ShowIntegerMaximumValue();
 
+            ExampleLong.ShowLongMinimumValue();
+
+            ExampleLong.ShowLongMaximumValue();
+
             ExampleSByte.ShowSByteMinimumValue();
 
             ExampleSByte.ShowSByteMaximumValue();
