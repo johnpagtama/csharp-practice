@@ -14,17 +14,25 @@ namespace Examples
 
             ExampleByte.ShowByteMaximumValue();
 
-            ExampleSbyte.ShowSbyteMinimumValue();
+            ExampleInteger.ShowIntegerMinimumValue();
 
-            ExampleSbyte.ShowSbyteMaximumValue();
+            ExampleInteger.ShowIntegerMaximumValue();
+
+            ExampleSByte.ShowSByteMinimumValue();
+
+            ExampleSByte.ShowSByteMaximumValue();
 
             ExampleShort.ShowShortMinimumValue();
 
             ExampleShort.ShowShortMaximumValue();
 
-            ExampleInteger.ShowIntegerMinimumValue();
+            ExampleUInt.ShowUnsignedIntegerMinimumValue();
 
-            ExampleInteger.ShowIntegerMaximumValue();
+            ExampleUInt.ShowUnsignedIntegerMaximumValue();
+
+            ExampleUShort.ShowUShortMinimumValue();
+
+            ExampleUShort.ShowUShortMaximumValue();
         }
     }
 }
