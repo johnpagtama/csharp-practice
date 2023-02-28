@@ -14,6 +14,10 @@ namespace Examples
 
             ExampleByte.ShowMaximumValue();
 
+            ExampleChar.ShowMinimumValue();
+
+            ExampleChar.ShowMaximumValue();
+
             ExampleInteger.ShowMinimumValue();
 
             ExampleInteger.ShowMaximumValue();
