@@ -34,6 +34,10 @@ namespace Examples
 
             ExampleUInt.ShowUnsignedIntegerMaximumValue();
 
+            ExampleULong.ShowUnsignedLongMinimumValue();
+
+            ExampleULong.ShowUnsignedLongMaximumValue();
+
             ExampleUShort.ShowUShortMinimumValue();
 
             ExampleUShort.ShowUShortMaximumValue();
