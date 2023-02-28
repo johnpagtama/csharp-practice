@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -8,14 +9,14 @@ namespace ExamplesLibrary
         {
             decimal decimalMin = decimal.MinValue;
 
-            Console.WriteLine($"Show decimal minimum value: {decimalMin}");
+            Console.WriteLine($"Show decimal minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", decimalMin)}");
         }
 
         public static void ShowMaximumValue()
         {
             decimal decimalMax = decimal.MaxValue;
 
-            Console.WriteLine($"Show decimal maximum value: {decimalMax}");
+            Console.WriteLine($"Show decimal maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", decimalMax)}");
         }
     }
 }
