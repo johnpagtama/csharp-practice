@@ -22,6 +22,10 @@ namespace Examples
 
             ExampleLong.ShowLongMaximumValue();
 
+            ExampleNInt.ShowNIntMinimumValue();
+
+            ExampleNInt.ShowNIntMaximumValue();
+
             ExampleSByte.ShowSByteMinimumValue();
 
             ExampleSByte.ShowSByteMaximumValue();
