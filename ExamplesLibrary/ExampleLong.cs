@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -8,14 +9,14 @@ namespace ExamplesLibrary
         {
             long longMin = long.MinValue;
 
-            Console.WriteLine($"Show long minimum value: {longMin}");
+            Console.WriteLine($"Show long minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", longMin)}");
         }
 
         public static void ShowLongMaximumValue()
         {
             long longMax = long.MaxValue;
 
-            Console.WriteLine($"Show long maximum value: {longMax}");
+            Console.WriteLine($"Show long maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", longMax)}");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -8,14 +9,14 @@ namespace ExamplesLibrary
         {
             short shortMin = short.MinValue;
 
-            Console.WriteLine($"Show short minimum value: {shortMin}");
+            Console.WriteLine($"Show short minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", shortMin)}");
         }
 
         public static void ShowShortMaximumValue()
         {
             short shortMax = short.MaxValue;
 
-            Console.WriteLine($"Show short maximum value: {shortMax}");
+            Console.WriteLine($"Show short maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", shortMax)}");
         }
     }
 }

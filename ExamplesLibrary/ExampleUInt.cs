@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -16,7 +16,7 @@ namespace ExamplesLibrary
         {
             uint uIntMax = uint.MaxValue;
 
-            Console.WriteLine($"Show uint maximum value: {uIntMax}");
+            Console.WriteLine($"Show uint maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", uIntMax)}");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -15,7 +16,7 @@ namespace ExamplesLibrary
         {
             ushort uShortMax = ushort.MaxValue;
 
-            Console.WriteLine($"Show ushort maximum value: {uShortMax}");
+            Console.WriteLine($"Show ushort maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", uShortMax)}");
         }
     }
 }

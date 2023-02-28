@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExamplesLibrary
 {
@@ -8,14 +9,14 @@ namespace ExamplesLibrary
         {
             int intMin = int.MinValue;
 
-            Console.WriteLine($"Show integer minimum value: {intMin}");
+            Console.WriteLine($"Show integer minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", intMin)}");
         }
 
         public static void ShowIntegerMaximumValue()
         {
             int intMax = int.MaxValue;
 
-            Console.WriteLine($"Show integer maximum value: {intMax}");
+            Console.WriteLine($"Show integer maximum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", intMax)}");
         }
     }
 }
