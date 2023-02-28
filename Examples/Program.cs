@@ -26,6 +26,10 @@ namespace Examples
 
             ExampleDouble.ShowMaximumValue();
 
+            ExampleFloat.ShowMinimumValue();
+
+            ExampleFloat.ShowMaximumValue();
+
             ExampleInteger.ShowMinimumValue();
 
             ExampleInteger.ShowMaximumValue();
