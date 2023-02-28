@@ -18,6 +18,10 @@ namespace Examples
 
             ExampleChar.ShowMaximumValue();
 
+            ExampleDecimal.ShowMinimumValue();
+
+            ExampleDecimal.ShowMaximumValue();
+
             ExampleInteger.ShowMinimumValue();
 
             ExampleInteger.ShowMaximumValue();
