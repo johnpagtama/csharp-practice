@@ -4,14 +4,14 @@ namespace ExamplesLibrary
 {
     public class ExampleByte
     {
-        public static void ShowByteMinimumValue()
+        public static void ShowMinimumValue()
         {
             byte byteMin = byte.MinValue;
 
             Console.WriteLine($"Show byte minimum value: {byteMin}");
         }
 
-        public static void ShowByteMaximumValue()
+        public static void ShowMaximumValue()
         {
             byte byteMax = byte.MaxValue;
 

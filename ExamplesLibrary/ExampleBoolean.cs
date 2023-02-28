@@ -4,14 +4,14 @@ namespace ExamplesLibrary
 {
     public class ExampleBoolean
     {
-        public static void ShowBooleanTrue()
+        public static void ShowTrue()
         {
             bool boolTrue = true;
 
             Console.WriteLine($"Show boolean true: {boolTrue}");
         }
 
-        public static void ShowBooleanFalse()
+        public static void ShowFalse()
         {
             bool boolFalse = false;
 

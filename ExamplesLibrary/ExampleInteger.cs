@@ -5,14 +5,14 @@ namespace ExamplesLibrary
 {
     public class ExampleInteger
     {
-        public static void ShowIntegerMinimumValue()
+        public static void ShowMinimumValue()
         {
             int intMin = int.MinValue;
 
             Console.WriteLine($"Show integer minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", intMin)}");
         }
 
-        public static void ShowIntegerMaximumValue()
+        public static void ShowMaximumValue()
         {
             int intMax = int.MaxValue;
 

@@ -6,49 +6,49 @@ namespace Examples
     {
         static void Main(string[] args)
         {
-            ExampleBoolean.ShowBooleanTrue();
+            ExampleBoolean.ShowTrue();
 
-            ExampleBoolean.ShowBooleanFalse();
+            ExampleBoolean.ShowFalse();
 
-            ExampleByte.ShowByteMinimumValue();
+            ExampleByte.ShowMinimumValue();
 
-            ExampleByte.ShowByteMaximumValue();
+            ExampleByte.ShowMaximumValue();
 
-            ExampleInteger.ShowIntegerMinimumValue();
+            ExampleInteger.ShowMinimumValue();
 
-            ExampleInteger.ShowIntegerMaximumValue();
+            ExampleInteger.ShowMaximumValue();
 
-            ExampleLong.ShowLongMinimumValue();
+            ExampleIntPtr.ShowMinimumValue();
 
-            ExampleLong.ShowLongMaximumValue();
+            ExampleIntPtr.ShowMaximumValue();
 
-            ExampleNInt.ShowNIntMinimumValue();
+            ExampleLong.ShowMinimumValue();
 
-            ExampleNInt.ShowNIntMaximumValue();
+            ExampleLong.ShowMaximumValue();
 
-            ExampleSByte.ShowSByteMinimumValue();
+            ExampleSByte.ShowMinimumValue();
 
-            ExampleSByte.ShowSByteMaximumValue();
+            ExampleSByte.ShowMaximumValue();
 
-            ExampleShort.ShowShortMinimumValue();
+            ExampleShort.ShowMinimumValue();
 
-            ExampleShort.ShowShortMaximumValue();
+            ExampleShort.ShowMaximumValue();
 
-            ExampleUInt.ShowUnsignedIntegerMinimumValue();
+            ExampleUInt.ShowMinimumValue();
 
-            ExampleUInt.ShowUnsignedIntegerMaximumValue();
+            ExampleUInt.ShowMaximumValue();
 
             ExampleUIntPtr.ShowMinimumValue();
 
             ExampleUIntPtr.ShowMaximumValue();
 
-            ExampleULong.ShowUnsignedLongMinimumValue();
+            ExampleULong.ShowMinimumValue();
 
-            ExampleULong.ShowUnsignedLongMaximumValue();
+            ExampleULong.ShowMaximumValue();
 
-            ExampleUShort.ShowUShortMinimumValue();
+            ExampleUShort.ShowMinimumValue();
 
-            ExampleUShort.ShowUShortMaximumValue();
+            ExampleUShort.ShowMaximumValue();
         }
     }
 }

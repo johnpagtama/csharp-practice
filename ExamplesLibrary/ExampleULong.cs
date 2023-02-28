@@ -5,14 +5,14 @@ namespace ExamplesLibrary
 {
     public class ExampleULong
     {
-        public static void ShowUnsignedLongMinimumValue()
+        public static void ShowMinimumValue()
         {
             ulong uLongMin = ulong.MinValue;
 
             Console.WriteLine($"Show ulong minimum value: {uLongMin}");
         }
 
-        public static void ShowUnsignedLongMaximumValue()
+        public static void ShowMaximumValue()
         {
             ulong uLongMax = ulong.MaxValue;
 

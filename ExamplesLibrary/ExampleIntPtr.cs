@@ -3,16 +3,16 @@ using System.Globalization;
 
 namespace ExamplesLibrary
 {
-    public class ExampleNInt
+    public class ExampleIntPtr
     {
-        public static void ShowNIntMinimumValue()
+        public static void ShowMinimumValue()
         {
             nint nIntMin = nint.MinValue;
 
             Console.WriteLine($"Show nint minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", nIntMin)}");
         }
 
-        public static void ShowNIntMaximumValue()
+        public static void ShowMaximumValue()
         {
             nint nIntMax = nint.MaxValue;
 

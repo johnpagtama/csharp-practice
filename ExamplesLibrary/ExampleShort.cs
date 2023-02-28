@@ -5,14 +5,14 @@ namespace ExamplesLibrary
 {
     public class ExampleShort
     {
-        public static void ShowShortMinimumValue()
+        public static void ShowMinimumValue()
         {
             short shortMin = short.MinValue;
 
             Console.WriteLine($"Show short minimum value: {String.Format(CultureInfo.InvariantCulture, "{0:#,##0}", shortMin)}");
         }
 
-        public static void ShowShortMaximumValue()
+        public static void ShowMaximumValue()
         {
             short shortMax = short.MaxValue;
 

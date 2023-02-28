@@ -5,14 +5,14 @@ namespace ExamplesLibrary
 {
     public class ExampleUShort
     {
-        public static void ShowUShortMinimumValue()
+        public static void ShowMinimumValue()
         {
             ushort uShortMin = ushort.MinValue;
 
             Console.WriteLine($"Show ushort minimum value: {uShortMin}");
         }
 
-        public static void ShowUShortMaximumValue()
+        public static void ShowMaximumValue()
         {
             ushort uShortMax = ushort.MaxValue;
 
