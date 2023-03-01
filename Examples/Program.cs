@@ -1,10 +1,15 @@
-﻿using ExamplesLibrary;
+﻿using ExamplesLibrary.Types;
 
 namespace Examples
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            CallExampleTypes();
+        }
+
+        private static void CallExampleTypes()
         {
             ExampleBoolean.ShowTrue();
 

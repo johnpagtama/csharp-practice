@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace ExamplesLibrary
+namespace ExamplesLibrary.Types
 {
     public class ExampleLong
     {

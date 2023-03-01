@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExamplesLibrary
+namespace ExamplesLibrary.Types
 {
     public class ExampleSByte
     {
