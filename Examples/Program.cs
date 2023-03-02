@@ -1,4 +1,5 @@
 ﻿using ExamplesLibrary.Types;
+using ExamplesLibrary.Types.Conversions;
 
 namespace Examples
 {
@@ -7,6 +8,7 @@ namespace Examples
         static void Main(string[] args)
         {
             CallExampleTypes();
+            ExampleConvert.ConvertToString();
         }
 
         private static void CallExampleTypes()
