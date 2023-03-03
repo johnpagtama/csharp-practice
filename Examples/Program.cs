@@ -10,6 +10,7 @@ namespace Examples
             CallExampleTypes();
             CallExampleConvert();
             CallExampleCast();
+            CallExampleParse();
         }
 
         private static void CallExampleTypes()
@@ -84,6 +85,11 @@ namespace Examples
         private static void CallExampleCast()
         {
             ExampleCast.CastToInt();
+        }
+
+        private static void CallExampleParse()
+        {
+            ExampleParse.ParseToInt();
         }
     }
 }
