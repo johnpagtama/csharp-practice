@@ -31,5 +31,31 @@ namespace ExamplesLibrary.Types.Conversions
                 Console.WriteLine($"{exampleType} is of type {exampleType.GetType()}");
             }
         }
+
+        public static void ConvertToBoolean()
+        {
+            List<bool> exampleTypes = new List<bool>
+            {
+                Convert.ToBoolean(byte.MaxValue),
+                Convert.ToBoolean(Convert.ToInt32(char.MaxValue)),
+                Convert.ToBoolean(decimal.MaxValue),
+                Convert.ToBoolean(double.MaxValue),
+                Convert.ToBoolean(float.MaxValue),
+                Convert.ToBoolean(int.MaxValue),
+                Convert.ToBoolean(nint.MaxValue),
+                Convert.ToBoolean(long.MaxValue),
+                Convert.ToBoolean(sbyte.MaxValue),
+                Convert.ToBoolean(short.MaxValue),
+                Convert.ToBoolean(uint.MaxValue),
+                Convert.ToBoolean(nuint.MaxValue),
+                Convert.ToBoolean(ulong.MaxValue),
+                Convert.ToBoolean(ushort.MaxValue)
+            };
+
+            foreach (bool exampleType in exampleTypes)
+            {
+                Console.WriteLine($"{exampleType} is of type: {exampleType.GetType()}");
+            }
+        }
     }
 }
