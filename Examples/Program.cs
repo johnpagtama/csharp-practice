@@ -11,6 +11,7 @@ namespace Examples
             CallExampleConvert();
             CallExampleCast();
             CallExampleParse();
+            CallExampleTryParse();
         }
 
         private static void CallExampleTypes()
@@ -90,6 +91,11 @@ namespace Examples
         private static void CallExampleParse()
         {
             ExampleParse.ParseToInt();
+        }
+
+        private static void CallExampleTryParse()
+        {
+            ExampleTryParse.TryParseToInt();
         }
     }
 }
