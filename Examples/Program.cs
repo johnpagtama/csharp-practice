@@ -8,8 +8,7 @@ namespace Examples
         static void Main(string[] args)
         {
             CallExampleTypes();
-            ExampleConvert.ConvertToString();
-            ExampleConvert.ConvertToBoolean();
+            CallExampleConvert();
         }
 
         private static void CallExampleTypes()
@@ -73,6 +72,12 @@ namespace Examples
             ExampleUShort.ShowMinimumValue();
 
             ExampleUShort.ShowMaximumValue();
+        }
+    
+        private static void CallExampleConvert()
+        {
+            ExampleConvert.ConvertToString();
+            ExampleConvert.ConvertToBoolean();
         }
     }
 }
