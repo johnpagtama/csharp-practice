@@ -9,6 +9,7 @@ namespace Examples
         {
             CallExampleTypes();
             CallExampleConvert();
+            CallExampleCast();
         }
 
         private static void CallExampleTypes()
@@ -78,6 +79,11 @@ namespace Examples
         {
             ExampleConvert.ConvertToString();
             ExampleConvert.ConvertToBoolean();
+        }
+
+        private static void CallExampleCast()
+        {
+            ExampleCast.CastToInt();
         }
     }
 }
