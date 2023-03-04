@@ -1,5 +1,6 @@
 ﻿using ExamplesLibrary.Types;
 using ExamplesLibrary.Types.Conversions;
+using ExamplesLibrary.Selection;
 
 namespace Examples
 {
@@ -7,11 +8,12 @@ namespace Examples
     {
         static void Main(string[] args)
         {
-            CallExampleTypes();
-            CallExampleConvert();
-            CallExampleCast();
-            CallExampleParse();
-            CallExampleTryParse();
+            //CallExampleTypes();
+            //CallExampleConvert();
+            //CallExampleCast();
+            //CallExampleParse();
+            //CallExampleTryParse();
+            CallExampleSelection();
         }
 
         private static void CallExampleTypes()
@@ -96,6 +98,11 @@ namespace Examples
         private static void CallExampleTryParse()
         {
             ExampleTryParse.TryParseToInt();
+        }
+
+        private static void CallExampleSelection()
+        {
+            ExampleIf.ConditionIsTrue();
         }
     }
 }
