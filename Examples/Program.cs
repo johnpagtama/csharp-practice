@@ -9,10 +9,7 @@ namespace Examples
         static void Main(string[] args)
         {
             //CallExampleTypes();
-            //CallExampleConvert();
-            //CallExampleCast();
-            //CallExampleParse();
-            //CallExampleTryParse();
+            //CallExampleTypeConversions();
             CallExampleSelection();
         }
 
@@ -78,7 +75,15 @@ namespace Examples
 
             ExampleUShort.ShowMaximumValue();
         }
-    
+
+        private static void CallExampleTypeConversions()
+        {
+            CallExampleConvert();
+            CallExampleCast();
+            CallExampleParse();
+            CallExampleTryParse();
+        }
+
         private static void CallExampleConvert()
         {
             ExampleConvert.ConvertToString();
