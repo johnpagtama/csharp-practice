@@ -108,6 +108,7 @@ namespace Examples
         private static void CallExampleSelection()
         {
             ExampleIf.ConditionIsTrue();
+            ExampleIfElse.ConditionIsFalse();
         }
     }
 }
