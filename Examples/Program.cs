@@ -109,6 +109,7 @@ namespace Examples
         {
             ExampleIf.ConditionIsTrue();
             ExampleIfElse.ConditionIsFalse();
+            ExampleIfElseIf.OtherConditionIsTrue();
         }
     }
 }
