@@ -119,6 +119,7 @@ namespace Examples
         private static void CallExampleIterations()
         {
             ExampleFor.Loop();
+            ExampleForEach.Loop();
             ExampleWhile.Loop();
             ExampleDoWhile.Loop();
         }
