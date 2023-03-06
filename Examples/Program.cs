@@ -127,6 +127,7 @@ namespace Examples
         private static void CallExampleDataStructures()
         {
             ExampleArray.Show();
+            ExampleList.Show();
         }
     }
 }

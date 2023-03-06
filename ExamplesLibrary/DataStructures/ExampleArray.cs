@@ -8,12 +8,14 @@ namespace ExamplesLibrary.DataStructures
         {
             int[] values = new int[5] { 1, 2, 3, 4, 5 };
 
-            Console.Write($"Values: ");
+            Console.Write($"Array Values: ");
 
             foreach (var value in values)
             {
                 Console.Write($"{value} ");
             }
+
+            Console.WriteLine("");
         }
     }
 }
