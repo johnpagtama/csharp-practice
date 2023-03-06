@@ -1,6 +1,7 @@
 ﻿using ExamplesLibrary.Types;
 using ExamplesLibrary.Types.Conversions;
 using ExamplesLibrary.Selections;
+using ExamplesLibrary.Iterations;
 
 namespace Examples
 {
@@ -10,7 +11,8 @@ namespace Examples
         {
             //CallExampleTypes();
             //CallExampleTypeConversions();
-            CallExampleSelection();
+            //CallExampleSelections();
+            CallExampleIterations();
         }
 
         private static void CallExampleTypes()
@@ -105,11 +107,16 @@ namespace Examples
             ExampleTryParse.TryParseToInt();
         }
 
-        private static void CallExampleSelection()
+        private static void CallExampleSelections()
         {
             ExampleIf.ConditionIsTrue();
             ExampleIfElse.ConditionIsFalse();
             ExampleIfElseIf.OtherConditionIsTrue();
+        }
+
+        private static void CallExampleIterations()
+        {
+            ExampleFor.Loop();
         }
     }
 }
