@@ -8,7 +8,7 @@ namespace ExamplesLibrary.Iterations
         {
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine($"Iteration: {i}");
+                Console.WriteLine($"For loop iteration: {i}");
             }
         }
     }
