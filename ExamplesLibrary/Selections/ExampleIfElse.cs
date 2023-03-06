@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExamplesLibrary.Selection
+namespace ExamplesLibrary.Selections
 {
     public class ExampleIfElse
     {

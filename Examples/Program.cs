@@ -1,6 +1,6 @@
 ﻿using ExamplesLibrary.Types;
 using ExamplesLibrary.Types.Conversions;
-using ExamplesLibrary.Selection;
+using ExamplesLibrary.Selections;
 
 namespace Examples
 {
