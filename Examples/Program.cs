@@ -118,6 +118,7 @@ namespace Examples
         {
             ExampleFor.Loop();
             ExampleWhile.Loop();
+            ExampleDoWhile.Loop();
         }
     }
 }
