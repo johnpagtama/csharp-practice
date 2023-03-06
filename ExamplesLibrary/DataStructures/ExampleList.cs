@@ -9,15 +9,11 @@ namespace ExamplesLibrary.DataStructures
         {
             List<int> values = new List<int>();
 
-            int count = 0;
-
             Console.Write($"List values: ");
 
-            while (count < 5)
+            for (int i = 0; i < 5; i++)
             {
-                values.Add(count + 1);
-
-                count++;
+                values.Add(i + 1);
             }
 
             foreach (var value in values)

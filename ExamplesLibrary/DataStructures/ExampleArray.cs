@@ -6,9 +6,14 @@ namespace ExamplesLibrary.DataStructures
     {
         public static void Show()
         {
-            int[] values = new int[5] { 1, 2, 3, 4, 5 };
+            int[] values = new int[5];
 
             Console.Write($"Array Values: ");
+
+            for (int i = 0; i < 5; i++)
+            {
+                values[i] = i + 1;
+            }
 
             foreach (var value in values)
             {
