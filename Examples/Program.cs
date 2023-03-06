@@ -2,6 +2,7 @@
 using ExamplesLibrary.Types.Conversions;
 using ExamplesLibrary.Selections;
 using ExamplesLibrary.Iterations;
+using ExamplesLibrary.DataStructures;
 
 namespace Examples
 {
@@ -12,7 +13,8 @@ namespace Examples
             //CallExampleTypes();
             //CallExampleTypeConversions();
             //CallExampleSelections();
-            CallExampleIterations();
+            //CallExampleIterations();
+            CallExampleDataStructures();
         }
 
         private static void CallExampleTypes()
@@ -119,6 +121,11 @@ namespace Examples
             ExampleFor.Loop();
             ExampleWhile.Loop();
             ExampleDoWhile.Loop();
+        }
+
+        private static void CallExampleDataStructures()
+        {
+            ExampleArray.Show();
         }
     }
 }
