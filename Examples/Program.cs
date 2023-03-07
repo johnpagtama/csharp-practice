@@ -131,6 +131,7 @@ namespace Examples
             ExampleDictionary.Show();
             ExampleHashTable.Show();
             ExampleStack.Show();
+            ExampleQueue.Show();
         }
     }
 }

@@ -3,22 +3,22 @@ using System.Collections.Generic;
 
 namespace ExamplesLibrary.DataStructures
 {
-    public class ExampleStack
+    public class ExampleQueue
     {
         public static void Show()
         {
-            Stack<int> cards = new Stack<int>();
+            Queue<int> tickets = new Queue<int>();
 
-            Console.WriteLine("Stack: ");
+            Console.WriteLine("Queue: ");
 
             for (int i = 0; i < 5; i++)
             {
-                cards.Push(i);
+                tickets.Enqueue(i);
             }
 
-            foreach (var card in cards)
+            foreach (var ticket in tickets)
             {
-                Console.WriteLine($"{card}");
+                Console.WriteLine($"{ticket}");
             }
         }
     }
