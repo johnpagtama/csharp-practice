@@ -3,6 +3,7 @@ using ExamplesLibrary.Types.Conversions;
 using ExamplesLibrary.Selections;
 using ExamplesLibrary.Iterations;
 using ExamplesLibrary.DataStructures;
+using ExamplesLibrary.Types.Structures;
 
 namespace Examples
 {
@@ -14,7 +15,8 @@ namespace Examples
             //CallExampleTypeConversions();
             //CallExampleSelections();
             //CallExampleIterations();
-            CallExampleDataStructures();
+            //CallExampleDataStructures();
+            CallExampleTypeStructures();
         }
 
         private static void CallExampleTypes()
@@ -132,6 +134,11 @@ namespace Examples
             ExampleHashTable.Show();
             ExampleStack.Show();
             ExampleQueue.Show();
+        }
+
+        private static void CallExampleTypeStructures()
+        {
+            ExampleStruct.Call();
         }
     }
 }
