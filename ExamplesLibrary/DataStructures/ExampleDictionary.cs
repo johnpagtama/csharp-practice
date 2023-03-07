@@ -13,7 +13,7 @@ namespace ExamplesLibrary.DataStructures
 
             for (int i = 0; i < 5; i++)
             {
-                persons.Add(i, $"person{i}");
+                persons.Add(i, $"person {i}");
             }
 
             foreach (var person in persons)

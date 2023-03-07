@@ -129,6 +129,7 @@ namespace Examples
             ExampleArray.Show();
             ExampleList.Show();
             ExampleDictionary.Show();
+            ExampleHashTable.Show();
         }
     }
 }
