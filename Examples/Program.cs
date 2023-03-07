@@ -130,6 +130,7 @@ namespace Examples
             ExampleList.Show();
             ExampleDictionary.Show();
             ExampleHashTable.Show();
+            ExampleStack.Show();
         }
     }
 }
