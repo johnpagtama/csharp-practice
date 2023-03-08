@@ -4,6 +4,7 @@ using ExamplesLibrary.Selections;
 using ExamplesLibrary.Iterations;
 using ExamplesLibrary.DataStructures;
 using ExamplesLibrary.Types.Structures;
+using ExamplesLibrary.Types.Classes;
 
 namespace Examples
 {
@@ -16,7 +17,8 @@ namespace Examples
             //CallExampleSelections();
             //CallExampleIterations();
             //CallExampleDataStructures();
-            CallExampleTypeStructures();
+            //CallExampleTypeStructures();
+            CallExampleTypeClasses();
         }
 
         private static void CallExampleTypes()
@@ -139,6 +141,17 @@ namespace Examples
         private static void CallExampleTypeStructures()
         {
             ExampleStruct.Call();
+        }
+
+        private static void CallExampleTypeClasses()
+        {
+            ExampleClass course = new ExampleClass();
+
+            course.DisplayCourseInfo();
+
+            ExampleClass cSharp = new ExampleClass(1337, "C#", "The Wizard of Woz", 117);
+
+            cSharp.DisplayCourseInfo();
         }
     }
 }
