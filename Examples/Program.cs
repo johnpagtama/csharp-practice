@@ -145,13 +145,13 @@ namespace Examples
 
         private static void CallExampleTypeClasses()
         {
-            ExampleClass course = new ExampleClass();
+            ExampleClass player1 = new ExampleClass();
 
-            course.DisplayCourseInfo();
+            player1.GetPosition();
 
-            ExampleClass cSharp = new ExampleClass(1337, "C#", "The Wizard of Woz", 117);
+            ExampleClass player2 = new ExampleClass(4, 5);
 
-            cSharp.DisplayCourseInfo();
+            player2.GetPosition();
         }
     }
 }

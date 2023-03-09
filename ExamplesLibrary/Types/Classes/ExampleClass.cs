@@ -4,30 +4,24 @@ namespace ExamplesLibrary.Types.Classes
 {
     public class ExampleClass
     {
-        private int CourseId { get; set; }
-        private string CourseName { get; set; }
-        private string Instructor { get; set; }
-        private int Unit { get; set; }
+        private int X { get; set; }
+        private int Y { get; set; }
 
         public ExampleClass()
         {
-            CourseId = 0000;
-            CourseName = "N/A";
-            Instructor = "N/A";
-            Unit = 0;
+            X = 0;
+            Y = 0;
         }
 
-        public ExampleClass(int courseId, string courseName, string instructor, int unit)
+        public ExampleClass(int x, int y)
         {
-            CourseId = courseId;
-            CourseName = courseName;
-            Instructor = instructor;
-            Unit = unit;
+            X = x;
+            Y = y;
         }
 
-        public void DisplayCourseInfo()
+        public void GetPosition()
         {
-            Console.WriteLine($"Course ID: {CourseId}\nCourse Name: {CourseName}\nInstructor: {Instructor}\nUnits: {Unit}\n");
+            Console.WriteLine($"Position: ({X}, {Y})");
         }
     }
 }
