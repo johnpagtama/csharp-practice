@@ -149,6 +149,12 @@ namespace Examples
 
             player1.GetPosition();
 
+            player1.Walk(4, 5);
+
+            player1.GetPosition();
+
+            player1.Attack();
+
             ExampleClass player2 = new ExampleClass(4, 5);
 
             player2.GetPosition();

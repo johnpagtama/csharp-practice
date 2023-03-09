@@ -2,7 +2,7 @@
 
 namespace ExamplesLibrary.Types.Classes
 {
-    public class ExampleClass
+    public class ExampleClass : IPlayerBehavior
     {
         private int X { get; set; }
         private int Y { get; set; }
@@ -22,6 +22,19 @@ namespace ExamplesLibrary.Types.Classes
         public void GetPosition()
         {
             Console.WriteLine($"Position: ({X}, {Y})");
+        }
+
+        public void Walk(int x, int y)
+        {
+            X = x;
+            Y = y;
+
+            Console.WriteLine("Player begins walking");
+        }
+
+        public void Attack()
+        {
+            Console.WriteLine("Player begins attacking");
         }
     }
 }
