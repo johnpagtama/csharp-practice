@@ -2,7 +2,7 @@
 
 namespace ExamplesLibrary.Types.Classes
 {
-    public class ExampleClass : IPlayerBehavior
+    public class ExampleClass : IExampleInterface
     {
         private int X { get; set; }
         private int Y { get; set; }

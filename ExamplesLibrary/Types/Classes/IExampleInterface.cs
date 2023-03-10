@@ -2,7 +2,7 @@
 
 namespace ExamplesLibrary.Types.Classes
 {
-    interface IPlayerBehavior
+    interface IExampleInterface
     {
         public void Walk(int x, int y);
         public void Attack();
