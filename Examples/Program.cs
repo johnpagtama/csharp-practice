@@ -145,19 +145,29 @@ namespace Examples
 
         private static void CallExampleTypeClasses()
         {
-            ExampleClass player1 = new ExampleClass();
+            ExampleClass human = new ExampleClass();
 
-            player1.GetPosition();
+            human.GetPosition();
 
-            player1.Walk(4, 5);
+            human.Walk(4, 5);
 
-            player1.GetPosition();
+            human.GetPosition();
 
-            player1.Attack();
+            human.Attack();
 
-            ExampleClass player2 = new ExampleClass(4, 5);
+            ExampleClass dog = new ExampleClass("Dog", 4, 5);
 
-            player2.GetPosition();
+            dog.GetPosition();
+
+            dog.Walk(5, 8);
+
+            dog.Attack();
+
+            dog.Eat();
+
+            dog.Drink();
+
+            dog.Sleep();
         }
     }
 }

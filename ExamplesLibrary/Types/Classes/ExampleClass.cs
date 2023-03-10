@@ -2,19 +2,22 @@
 
 namespace ExamplesLibrary.Types.Classes
 {
-    public class ExampleClass : IExampleInterface
+    public class ExampleClass : ExampleParentClass, IExampleInterface
     {
         private int X { get; set; }
         private int Y { get; set; }
 
         public ExampleClass()
         {
+
+            Species = "N/A";
             X = 0;
             Y = 0;
         }
 
-        public ExampleClass(int x, int y)
+        public ExampleClass(string species, int x, int y)
         {
+            Species = species;
             X = x;
             Y = y;
         }
@@ -29,12 +32,12 @@ namespace ExamplesLibrary.Types.Classes
             X = x;
             Y = y;
 
-            Console.WriteLine("Player begins walking");
+            Console.WriteLine($"{Species} begins walking");
         }
 
         public void Attack()
         {
-            Console.WriteLine("Player begins attacking");
+            Console.WriteLine($"{Species} begins attacking");
         }
     }
 }
