@@ -5,6 +5,7 @@ using ExamplesLibrary.Iterations;
 using ExamplesLibrary.DataStructures;
 using ExamplesLibrary.Types.Structures;
 using ExamplesLibrary.Types.Classes;
+using ExamplesLibrary.Files;
 
 namespace Examples
 {
@@ -18,7 +19,8 @@ namespace Examples
             //CallExampleIterations();
             //CallExampleDataStructures();
             //CallExampleTypeStructures();
-            CallExampleTypeClasses();
+            //CallExampleTypeClasses();
+            CallExampleFiles();
         }
 
         private static void CallExampleTypes()
@@ -168,6 +170,11 @@ namespace Examples
             dog.Drink();
 
             dog.Sleep();
+        }
+
+        public static void CallExampleFiles()
+        {
+            ExampleFileHandler.ReadFile();
         }
     }
 }
