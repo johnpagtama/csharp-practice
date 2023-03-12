@@ -1,4 +1,6 @@
-﻿using ExamplesLibrary.Types;
+﻿using System;
+using System.Collections.Generic;
+using ExamplesLibrary.Types;
 using ExamplesLibrary.Types.Conversions;
 using ExamplesLibrary.Selections;
 using ExamplesLibrary.Iterations;
@@ -6,6 +8,7 @@ using ExamplesLibrary.DataStructures;
 using ExamplesLibrary.Types.Structures;
 using ExamplesLibrary.Types.Classes;
 using ExamplesLibrary.Files;
+using ExamplesLibrary.Delegates;
 
 namespace Examples
 {
@@ -20,7 +23,8 @@ namespace Examples
             //CallExampleDataStructures();
             //CallExampleTypeStructures();
             //CallExampleTypeClasses();
-            CallExampleFiles();
+            //CallExampleFiles();
+            CallExampleDelegates();
         }
 
         private static void CallExampleTypes()
@@ -172,9 +176,43 @@ namespace Examples
             dog.Sleep();
         }
 
-        public static void CallExampleFiles()
+        private static void CallExampleFiles()
         {
             ExampleFileHandler.ReadFile();
+        }
+
+        private static void CallExampleDelegates()
+        {
+            ExampleDelegate exampleDelegate = new ExampleDelegate();
+
+            ExampleDelegate exampleDelegate1 = new ExampleDelegate(new List<int>() { 1, 2, 3, 4, 5 });
+
+            DisplaySquared(exampleDelegate, exampleDelegate1);
+
+            static void DisplaySquared(ExampleDelegate exampleDelegate, ExampleDelegate exampleDelegate1)
+            {
+                foreach (var number in exampleDelegate.Calculate(Square))
+                {
+                    Console.WriteLine($"Default values squared: {number}");
+                }
+
+                foreach (var number in exampleDelegate1.Calculate(Square))
+                {
+                    Console.WriteLine($"Custom values squared: {number}");
+                }
+            }
+
+            static List<int> Square(List<int> numbers)
+            {
+                List<int> squaredNumbers = new List<int>();
+
+                foreach (var number in numbers)
+                {
+                    squaredNumbers.Add(number * number);
+                }
+
+                return squaredNumbers;
+            }
         }
     }
 }
