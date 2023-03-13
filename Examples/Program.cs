@@ -24,7 +24,8 @@ namespace Examples
             //CallExampleTypeStructures();
             //CallExampleTypeClasses();
             //CallExampleFiles();
-            CallExampleDelegates();
+            //CallExampleDelegates();
+            CallExampleAbstractShape();
         }
 
         private static void CallExampleTypes()
@@ -213,6 +214,17 @@ namespace Examples
 
                 return squaredNumbers;
             }
+        }
+
+        public static void CallExampleAbstractShape()
+        {
+            ExampleRectangle exampleRectangle = new ExampleRectangle();
+
+            Console.WriteLine($"Default perimeter: {exampleRectangle.GetPerimeter()}");
+
+            ExampleRectangle exampleRectangle1 = new ExampleRectangle(3, 9);
+
+            Console.WriteLine($"Custom perimeter: {exampleRectangle1.GetPerimeter()}");
         }
     }
 }
