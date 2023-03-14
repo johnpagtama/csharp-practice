@@ -25,7 +25,8 @@ namespace Examples
             //CallExampleTypeClasses();
             //CallExampleFiles();
             //CallExampleDelegates();
-            CallExampleAbstractShape();
+            //CallExampleAbstractShape();
+            CallExampleVirtual();
         }
 
         private static void CallExampleTypes()
@@ -216,7 +217,7 @@ namespace Examples
             }
         }
 
-        public static void CallExampleAbstractShape()
+        private static void CallExampleAbstractShape()
         {
             ExampleRectangle exampleRectangle = new ExampleRectangle();
 
@@ -225,6 +226,25 @@ namespace Examples
             ExampleRectangle exampleRectangle1 = new ExampleRectangle(3, 9);
 
             Console.WriteLine($"Custom perimeter: {exampleRectangle1.GetPerimeter()}");
+        }
+
+        private static void CallExampleVirtual()
+        {
+            Fahrenheit fahrenheit = new Fahrenheit();
+
+            Console.WriteLine($"{fahrenheit.Temperature} F = {fahrenheit.Convert():0.00} C");
+
+            Fahrenheit fahrenheit1 = new Fahrenheit(45.0);
+
+            Console.WriteLine($"{fahrenheit1.Temperature} F = {fahrenheit1.Convert():0.00} C");
+
+            Celsius celsius = new Celsius();
+
+            Console.WriteLine($"{celsius.Temperature} C = {celsius.Convert():0.00} F");
+
+            Celsius celsius1 = new Celsius(45.0);
+
+            Console.WriteLine($"{celsius1.Temperature} C = {celsius1.Convert():0.00} F");
         }
     }
 }
